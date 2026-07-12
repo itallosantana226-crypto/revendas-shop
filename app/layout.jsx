@@ -5,11 +5,7 @@ export const metadata = {
   description: "Loja online de produtos variados"
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }) {
   return (
     <html lang="pt-BR">
       <body>{children}</body>
